@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.page1{
+    height: 100vh;
+    width: 92vw;
+    background-color: rgb(65, 0, 97);
+    /* border: 0.5vh solid rgb(255, 59, 59); */
+}
+.page1_section1{
+height: 10vh;
+width: 92vw;
+background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.page1_section1_part1 h1{
+  padding-left: 15vh;
+}
+.page1_section1_part2 ul{
+    display: flex;
+    gap: 8vh;
+    list-style: none;
+    font-size: 2.5vh;
+}
+.page1_section1_part3 {
+    padding-right: 15vh;
+    }
+.page1_section1_part3 .navP_btns{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+#Sign_In{
+background-color: azure;
+color: black;
+margin-right: 1vh;
+border: 0.4vh solid rgb(239, 99, 236) ;
+}
+#Free_trial{
+   background-color: rgb(239, 99, 236);
+}
+
+
+
+
+
+/* page1_section2 */
+
+.page1_section2{
+height: 90vh;
+width: 92vw;
+background-color: rgb(118, 17, 96);
+display: flex;
+}
+.page1_section2_part1{
+height: 90vh;
+width: 46vw;
+background-color: blue;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+}
+
+.page1_section2_part1 h1{
+    font-size: 7vh;
+    text-align: center;
+    line-height: 8vh;
+    padding-top: 10vh;
+    font-weight: lighter;
+}
+.page1_section2_part1 p{
+ font-size: 3vh;
+ padding-left: 15vh;
+ padding-right: 15vh;
+ text-align: center;
+ padding-top: 3vh;
+}
+
+.page1_section2_part1_btns{
+   margin-top: 6vh; 
+   font-size: 2vh;
+   border-radius: 1vh;
+   border: none;
+}
+#Enroll_Now{
+margin-right: 2vh;
+padding-left: 3vh;
+padding-right: 3vh;
+padding-top: 1vh;
+padding-bottom: 1vh;
+box-shadow: 0px 0px 10px 5px rgb(239, 99, 236);
+}
+#whats_Etech{
+    margin-left: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-shadow: 0px 0px 10px 5px rgb(239, 99, 236);
+}
+
+
+
+/* page1_section2_part2 */
+
+.page1_section2_part2{
+    height: 90vh;
+    width: 46vw; 
+}
