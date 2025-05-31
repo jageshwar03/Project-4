@@ -194,11 +194,50 @@ font-size: 2.4vh;
   font-size: 6vh;
   padding-bottom: 2.5vh;
 }
-.page3_top_part2 input{
+.page3_top_part2{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    
+}
+.courses_input{
+    border: 0.1vh solid black;
+    gap: 1vh;
+    background-color: white;
+    padding-left: 2vh;
+    padding-right: 7vh;
 
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 1vh;
+}
+.ri-search-line{
+    font-size: 2.5vh;
+}
+.page3_top_part2 input{
+ /* padding-left: 5vh; */
+ /* padding-right: 2vh; */
+ padding-top: 1.5vh;
+ padding-bottom: 1.5vh;
+ font-size: 2vh;
+ border-radius: 1.5vh ;
+ border: none;
+ margin-right: 2vh;
 }
 .page3_top_part2 button{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-size: 2vh;
+    border-radius: 1.5vh ;
+    border: none;
+    margin-right: 2vh;
+}
 
+#search{
+    background-color: rgb(200, 116, 186);
 }
 
 
@@ -206,4 +245,33 @@ font-size: 2.4vh;
     height: 75vh;
     width: 92vw;
     background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+
+
+.page3_botom_left{
+height: 70vh;
+width: 45vw;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.images_box{
+    height: 68vh;
+    width: 42vw;
+    background-color: cornflowerblue;
+}
+
+
+
+.page3_botom_right{
+    height: 70vh;
+    width: 45vw;
+    background-color: brown;
 }
