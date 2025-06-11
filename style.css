@@ -244,7 +244,7 @@ font-size: 2.4vh;
 .page3_botom{
     height: 75vh;
     width: 92vw;
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,7 +256,7 @@ font-size: 2.4vh;
 .page3_botom_left{
 height: 70vh;
 width: 45vw;
-background-color: blue;
+/* background-color: blue; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -265,7 +265,7 @@ align-items: center;
 .images_box{
     height: 68vh;
     width: 42vw;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     display: grid;
     grid-template-rows: repeat(2,300px);
     grid-template-columns: repeat(2,380px);
@@ -276,7 +276,7 @@ align-items: center;
 
 
 .img_item{
-    background-color: chartreuse; 
+    /* background-color: chartreuse;  */
 }
 .imgitem1{
     border-bottom-right-radius: 50%;
@@ -325,7 +325,7 @@ align-items: center;
 .page3_botom_right{
     height: 70vh;
     width: 45vw;
-    background-color: brown;
+    background-color: rgba(211, 50, 220, 0.566);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -575,3 +575,104 @@ border-radius: 0.2vh;
     background-color: rgb(255, 255, 255);
 }
 
+
+
+
+
+/* page 5 start here !! */
+.page_5{
+    height:80vh ;
+    width: 92vw;
+    background-color: rgb(255, 255, 255);
+    border-left: 2px solid  rgb(170, 97, 239);
+    border-right: 2px solid  rgb(170, 97, 239);
+    display: flex;
+}
+.page_5_left_part{
+    height:80vh ;
+    width: 46vw;
+    /* background-image: linear-gradient(to left , blue,yellow); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_1{
+padding-right: 11vh;
+font-size: 3vh;
+}
+.text_2{
+     padding-left: 20vh;
+     padding-right: 20vh;
+     padding-top: 2vh;
+     padding-bottom: 1vh;
+     text-align: left;
+}
+.text_2 p{
+    font-size: 20px;
+}
+
+.text_3{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.text_3 h5{
+    font-size: 30px;
+    padding-right:30vh;
+}
+.text_4{
+    display: flex; 
+    padding-right: 3vh;
+    gap: 10vh;
+}
+.text_4 p{
+    line-height: 2.5vh;
+}
+.ri-circle-fill{
+    color: rgb(130, 3, 249);
+}
+.text_5{
+    padding-top: 5vh;
+    padding-bottom: 2vh; 
+    padding-right: 12vh;
+}
+
+.text_5 button{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1.5vh;
+    padding-bottom:1.5vh ;
+    border: none;
+    background-color: rgb(147, 59, 228);
+    border-radius: 1vh;
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.page_5_right_part{
+    height:80vh ;
+    width: 46vw;
+    /* background-image: radial-gradient(circle,deeppink,green); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_5image_box{
+    height:60vh ;
+    width: 25vw;
+    background-color: blueviolet;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.page_5image_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
